@@ -1,0 +1,33 @@
+version: 2
+updates:
+- package-ecosystem: terraform
+  directory: "/example1"
+  schedule:
+    interval: daily
+    time: "00:00"
+  open-pull-requests-limit: 1
+  target-branch: main
+
+- package-ecosystem: terraform
+  directory: "/example2"
+  schedule:
+    interval: daily
+    time: "00:00"
+  open-pull-requests-limit: 1
+  target-branch: main
+
+- package-ecosystem: terraform
+  directory: "/example3"
+  schedule:
+    interval: daily
+    time: "00:00"
+  open-pull-requests-limit: 1
+  target-branch: main
+
+- package-ecosystem: terraform
+  directory: "/example4"
+  schedule:
+    interval: daily
+    time: "00:00"
+  open-pull-requests-limit: 1
+  target-branch: main
